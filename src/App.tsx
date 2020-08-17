@@ -16,6 +16,7 @@ const Child: React.FC<Props> = props => {
 const App: React.FC = () => {
   return(
     <div className="App">
+      {/* コンポーネントとして吐き出す時、ここのmessageってコンポーネント内に書かない方がスマートなのでは説 */}
       <Child message="これは文字1" />
       <Child message="これは文字2" />
       <Child message="これは文字3" />
